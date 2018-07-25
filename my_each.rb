@@ -22,7 +22,5 @@ def hello(array)
 end
 
 
-  puts i
-
 
 hello(list) {|i| "Hello #{i} what's up?"}
