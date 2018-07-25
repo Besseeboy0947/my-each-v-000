@@ -21,8 +21,8 @@ def hello(array)
   collection
 end
 
-my_each(collection) do |i|
+
   puts i
-end
+
 
 hello(list) {|i| "Hello #{i} what's up?"}
